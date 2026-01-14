@@ -1,0 +1,30 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# --- Secrets (Crucial) ---
+.env
+
+# --- Database & Storage ---
+# This is where ChromaDB saves the vector data.
+# You generally do not want to push the database binary files to GitHub.
+resources/
+resources/vectorstore/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- Project Specific ---
+# Ignore any PDFs you uploaded for testing
+*.pdf
+*.txt
+# Keep requirements.txt, but ignore other text reports if you download them
+!requirements.txt
+
+# --- OS & IDE ---
+.DS_Store
+.vscode/
+.idea/
