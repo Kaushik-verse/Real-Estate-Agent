@@ -1,5 +1,5 @@
 streamlit>=1.31
-langchain>=0.1.20
+langchain>=0.2,<0.3
 langchain-community
 langchain-core
 langchain-chroma
